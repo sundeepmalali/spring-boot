@@ -1,0 +1,3 @@
+<ehcache>
+    <cache name="price" maxEntriesLocalHeap="200"/>
+</ehcache>

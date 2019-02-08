@@ -1,0 +1,19 @@
+#server:
+#  port: 9001
+#  context-path: /test1
+  
+n: Spring Boot ${name}
+name: ${random.int(0,200)}
+
+#spring:
+#  profiles:
+#    active: prod
+    
+app.message: Coming from prod profile
+app.message.dev: Coming from dev profile
+
+
+spring:
+  mustache:
+    prefix: classpath:/mustache/
+    suffix: .html
